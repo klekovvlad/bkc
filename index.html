@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание Клеков В.Г. HTML - Верстальщик</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="block">
+        <p>В случае несогласия с результатами экзамена Кандидат имеет право на подачу апелляции:</p>
+        <ul>
+            <li><span>сроки подачи: не позднее 6 недель с даты письменного экзамена.</span></li>
+            <li><span>сроки рассмотрения: от 2 дней до 3 недель с даты получения запроса</span></li>
+            <li><span>стоимость: 9500 рублей* +100 рублей комиссия за онлайн перевод</span></li>
+        </ul>
+        <div class="block__form">
+            <div class="block__form-item">
+                <span><span class="uppercase">Скачайте и заполните</span>два файла с заявлением на апелляцию</span>
+                <div class="block__form-cards">
+                    <div class="block__form-card block__form-card-download">
+                        <span>1</span>
+                        <a href="">Скачать</a>
+                    </div>
+                    <div class="block__form-card block__form-card-download">
+                        <span>2</span>
+                        <a href="">Скачать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block__form-item">
+                <span><span class="uppercase">Отсканируйте и загрузите</span>заполненные заявления</span>
+                <div class="block__form-cards block__form-cards-upload">
+                    <input id="upload-1" type="file">
+                    <label for="upload-1">
+                        <div class="block__form-card block__form-card-upload block__form-card-upload-1">
+                            <span>1</span>
+                            <div class="check-image"></div>
+                        </div>
+                    </label>
+                    <input id="upload-2" type="file">
+                    <label for="upload-2">
+                        <div class="block__form-card block__form-card-upload block__form-card-upload-2">
+                            <span>2</span>
+                            <div class="check-image"></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="block__form-item">
+                <span><span class="uppercase">Оплатите</span>подачу апелляции</span>
+                <span class="price">Стоимость апелляции - 7700 ₽</span>
+                <button>Оплата апелляции</button>
+            </div>
+        </div>
+        <div class="block__alarm">
+            Важная информация для корректного заполнения заявления:<br>
+            Centre name: BKC-ih Moscow IELTS Test Centre<br>
+            Centre number: RU087<br>
+            Candidate number:  Цифры в верхнем правом углу сертификата/можно не заполнять, если сертификат еще не получен.
+        </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
